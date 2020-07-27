@@ -1,0 +1,11 @@
+--- ../models/Staticroute/Dao.php	2020-07-23 11:20:43.000000000 +0200
++++ ../models/Staticroute/Dao-modified.php	2020-07-27 22:55:08.239673323 +0200
+@@ -124,7 +124,7 @@
+
+         $dataRaw = $this->model->getObjectVars();
+         $data = [];
+-        $allowedProperties = ['id', 'name', 'pattern', 'reverse', 'module', 'controller',
++        $allowedProperties = ['id', 'name', 'basePage', 'pattern', 'reverse', 'module', 'controller',
+             'action', 'variables', 'defaults', 'siteId', 'priority', 'methods', 'creationDate', 'modificationDate'];
+
+         foreach ($dataRaw as $key => $value) {

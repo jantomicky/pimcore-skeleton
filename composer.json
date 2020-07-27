@@ -61,6 +61,14 @@
       "merge-extra": false,
       "merge-extra-deep": false,
       "merge-scripts": false
+    },
+    "patches": {
+      "pimcore/pimcore": {
+        "Modify: basepage option for staticroutes 1/4": "./patches/file.php.patch",
+        "Modify: basepage option for staticroutes 2/4": "./patches/file.php.patch",
+        "Modify: basepage option for staticroutes 3/4": "./patches/file.php.patch",
+        "Modify: basepage option for staticroutes 4/4": "./patches/file.php.patch"
+      }
     }
   }
 }
