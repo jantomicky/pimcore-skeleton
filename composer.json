@@ -64,10 +64,10 @@
     },
     "patches": {
       "pimcore/pimcore": {
-        "Modify: basepage option for staticroutes 1/4": "./patches/file.php.patch",
-        "Modify: basepage option for staticroutes 2/4": "./patches/file.php.patch",
-        "Modify: basepage option for staticroutes 3/4": "./patches/file.php.patch",
-        "Modify: basepage option for staticroutes 4/4": "./patches/file.php.patch"
+        "Modify: basepage option for staticroutes 1/4": "patches/SettingsController.php.patch",
+        "Modify: basepage option for staticroutes 2/4": "patches/staticroutes.js.patch",
+        "Modify: basepage option for staticroutes 3/4": "patches/Staticroute.php.patch",
+        "Modify: basepage option for staticroutes 4/4": "patches/Dao.php.patch"
       }
     }
   }
