@@ -8,8 +8,9 @@
   },
   "require": {
     "php": ">=7.2",
-    "wikimedia/composer-merge-plugin": "^1.4",
-    "pimcore/pimcore": "~6.6.0"
+    "cweagans/composer-patches": "^1.6",
+    "pimcore/pimcore": "~6.6.0",
+    "wikimedia/composer-merge-plugin": "^1.4"
   },
   "require-dev": {
     "cache/integration-tests": "^0.16.0",
